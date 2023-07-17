@@ -2,6 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
+.headnav{
+    display: flex;
+    display: inline;
+    position: sticky;
+    top: 0;
+}
 nav{
     font-family: 'Roboto', sans-serif;
 }
@@ -28,18 +34,24 @@ nav ul li{
     font-size: 1.4rem;
 }
 .container{
-    height: 500px;
-    background-color: white;
-    
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 12px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 24px;
 }
 .bottom{
     display: flex;
+    position: sticky;
+    bottom: 0;
     flex-direction: column;
     background-color: black;
     color: antiquewhite;
-    position: sticky;
     height: 100px ;
-    margin-bottom: 10px;
     align-items: center;
     justify-content: center;
 }
